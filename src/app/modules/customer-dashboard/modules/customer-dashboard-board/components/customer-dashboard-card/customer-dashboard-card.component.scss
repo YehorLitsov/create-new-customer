@@ -1,0 +1,40 @@
+.dashboard-card {
+  border-radius: 6px;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 0 10px;
+
+  &-line {
+    height: 5px;
+    width: 100%;
+
+    &.red {
+      background: red;
+    }
+    &.green {
+      background: green;
+    }
+    &.yellow {
+      background: yellow;
+    }
+    &.blue {
+      background: blue;
+    }
+  }
+
+  &-company {
+    &-data {
+      display: flex;
+      align-items: center;
+    }
+
+    &-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+}
