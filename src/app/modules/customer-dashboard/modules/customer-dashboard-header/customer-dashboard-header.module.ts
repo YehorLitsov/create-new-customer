@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomerDashboardHeaderComponent } from './customer-dashboard-header.component';
+import {TabHeaderModule} from "../../../../common/modules/tab-header/tab-header.module";
 
 
 
@@ -12,7 +13,8 @@ import { CustomerDashboardHeaderComponent } from './customer-dashboard-header.co
     CustomerDashboardHeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    TabHeaderModule
   ]
 })
 export class CustomerDashboardHeaderModule { }

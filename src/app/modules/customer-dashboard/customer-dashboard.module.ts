@@ -7,6 +7,7 @@ import {CustomerDashboardHeaderModule} from "./modules/customer-dashboard-header
 import {CustomerDashboardSearchModule} from "./modules/customer-dashboard-search/customer-dashboard-search.module";
 import {CustomerDashboardBoardModule} from "./modules/customer-dashboard-board/customer-dashboard-board.module";
 import {CustomerDashboardFooterModule} from "./modules/customer-dashboard-footer/customer-dashboard-footer.module";
+import {TabCardModule} from "../../common/modules/tab-card/tab-card.module";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {CustomerDashboardFooterModule} from "./modules/customer-dashboard-footer
     CustomerDashboardHeaderModule,
     CustomerDashboardSearchModule,
     CustomerDashboardBoardModule,
-    CustomerDashboardFooterModule
+    CustomerDashboardFooterModule,
+    TabCardModule
   ]
 })
 export class CustomerDashboardModule { }
