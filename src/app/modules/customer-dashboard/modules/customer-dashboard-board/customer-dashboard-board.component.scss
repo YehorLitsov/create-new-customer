@@ -1,8 +1,14 @@
-.dashboard-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
+.dashboard {
+  &-scrollable {
+    height: calc(100vh - 200px);
+    overflow-x: auto;
+  }
+  &-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
 }
 
 @media (max-width: 991.98px) {
