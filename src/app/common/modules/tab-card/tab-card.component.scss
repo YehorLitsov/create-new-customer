@@ -1,3 +1,23 @@
 .tab-card {
   background: #eeeeee;
+  display: grid;
+  grid-template-rows:
+    auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  height: calc(100vh - 40px);
+
+  &-header {
+    grid-area: header;
+  }
+
+  &-content {
+    grid-area: content;
+  }
+
+  &-footer {
+    grid-area: footer;
+  }
 }

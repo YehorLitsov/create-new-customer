@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-customer-dashboard-search',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customer-dashboard-search.component.scss']
 })
 export class CustomerDashboardSearchComponent implements OnInit {
+  @Input() placeholder = 'Search for a Customer';
 
   constructor() { }
 

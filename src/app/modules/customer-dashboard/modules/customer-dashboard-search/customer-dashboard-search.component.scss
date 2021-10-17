@@ -1,0 +1,17 @@
+.search-field {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background: white;
+  width: 300px;
+  display: flex;
+  align-items: center;
+
+  &-icon {
+    color: gray;
+  }
+
+  &-input {
+    border: none;
+    background: transparent;
+  }
+}

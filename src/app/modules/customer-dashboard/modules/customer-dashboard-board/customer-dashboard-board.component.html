@@ -1,1 +1,8 @@
-<p>customer-dashboard-board works!</p>
+<div class="dashboard-scrollable">
+  <section class="dashboard-wrapper p-10">
+    <app-customer-dashboard-card
+      *ngFor="let customer of arrayOfCustomers"
+      [customerData]="customer"
+    ></app-customer-dashboard-card>
+  </section>
+</div>

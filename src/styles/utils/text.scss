@@ -1,3 +1,5 @@
+@import "src/styles/variables/colors";
+
 * {
   font-family: sans-serif;
 }
@@ -13,4 +15,13 @@
   }
 }
 
-@include font-size()
+@include font-size();
+
+.text {
+  &-gray {
+    color: $gray;
+  }
+  &-light-gray {
+    color: $lightgray;
+  }
+}

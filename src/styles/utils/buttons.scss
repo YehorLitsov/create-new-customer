@@ -1,0 +1,38 @@
+.app-button {
+  border-radius: 5px;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .7;
+  transition: .1s;
+
+  &.xs {
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  &.sm {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  &.md {
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &.ld {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  &.gray {
+    color: gray;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
