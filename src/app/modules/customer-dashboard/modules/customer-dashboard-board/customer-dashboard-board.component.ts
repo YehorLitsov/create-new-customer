@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 import {CustomerInterface} from "../../../../interfaces/customer.interface";
 import {ColorEnum} from "../../../../enums/color.enum";
 
@@ -18,7 +18,8 @@ const generateCustomer = (
 @Component({
   selector: 'app-customer-dashboard-board',
   templateUrl: './customer-dashboard-board.component.html',
-  styleUrls: ['./customer-dashboard-board.component.scss']
+  styleUrls: ['./customer-dashboard-board.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CustomerDashboardBoardComponent {
   arrayOfCustomers: CustomerInterface[] = [

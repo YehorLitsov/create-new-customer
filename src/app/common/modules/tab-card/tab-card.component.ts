@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {ChangeDetectionStrategy, Component} from '@angular/core';
 
 @Component({
   selector: 'app-tab-card',
   templateUrl: './tab-card.component.html',
-  styleUrls: ['./tab-card.component.scss']
+  styleUrls: ['./tab-card.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class TabCardComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class TabCardComponent {}
