@@ -2,15 +2,19 @@
   <div class="dashboard-card-line {{customerData.color}}"></div>
 
   <div class="dashboard-card-content p-10">
-    <div class="dashboard-card-company-data p-t-5 p-b-5">
-      <i class="fab fa-{{customerData.icon}} font-size-32 m-r-10"></i>
-      <div class="dashboard-card-company-name">
-        <h4>{{customerData.companyName}}</h4>
-        <span class="font-size-12 text-gray">{{customerData.contactName}}</span>
+    <div class="dashboard-card-company-data-wrapper">
+      <div class="dashboard-card-company-data p-t-5 p-b-5">
+        <i class="fab fa-{{customerData.icon}} font-size-32 m-r-10"></i>
+        <div class="dashboard-card-company-name">
+          <h4>{{customerData.companyName}}</h4>
+          <span class="font-size-12 text-gray">{{customerData.contactName}}</span>
+        </div>
       </div>
     </div>
-    <div class="">
 
+    <div class="dashboard-card-company-contacts">
+      <span class="font-size-10 text-gray">{{customerData.address}}</span>
+      <span class="font-size-10 text-gray">{{customerData.email}}</span>
     </div>
   </div>
 

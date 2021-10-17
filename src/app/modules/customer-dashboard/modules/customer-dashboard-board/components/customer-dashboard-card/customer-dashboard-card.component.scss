@@ -24,16 +24,32 @@
     }
   }
 
+  &-content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 5px);
+  }
+
   &-company {
     &-data {
       display: flex;
       align-items: center;
+
+      &-wrapper {
+        flex: 1;
+      }
     }
 
     &-name {
       display: flex;
       flex-direction: column;
       justify-content: center;
+    }
+
+    &-contacts {
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
     }
   }
 

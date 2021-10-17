@@ -24,14 +24,14 @@ export class CustomerDashboardBoardComponent {
   arrayOfCustomers: CustomerInterface[] = [
     generateCustomer('amazon', 'Amazon', ColorEnum.Red),
     generateCustomer('amazon-pay', 'Amazon-pay', ColorEnum.Yellow),
-    generateCustomer('anchor', 'Anchor', ColorEnum.Green),
-    generateCustomer('ambulance', 'Medical', ColorEnum.Blue),
+    generateCustomer('adversal', 'Anchor', ColorEnum.Green),
+    generateCustomer('amazon', 'Medical', ColorEnum.Blue),
     generateCustomer('airbnb', 'Airbnb', ColorEnum.Green),
-    generateCustomer('air-freshener', 'Freshener', ColorEnum.Blue),
+    generateCustomer('amazon', 'Freshener', ColorEnum.Blue),
     generateCustomer('adversal', 'Adversal', ColorEnum.Green),
     generateCustomer('apple-pay', 'Apple-pay', ColorEnum.Yellow),
-    generateCustomer('carrot', 'Vegetables', ColorEnum.Red),
-    generateCustomer('discover', 'Discover', ColorEnum.Green),
-    generateCustomer('mastercard', 'Mastercard', ColorEnum.Blue)
+    generateCustomer('amazon-pay', 'Vegetables', ColorEnum.Red),
+    generateCustomer('adversal', 'Discover', ColorEnum.Green),
+    generateCustomer('airbnb', 'Mastercard', ColorEnum.Blue)
   ]
 }
