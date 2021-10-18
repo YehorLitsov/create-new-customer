@@ -1,5 +1,6 @@
 <div class="dashboard-scrollable">
   <section class="dashboard-wrapper p-10">
+    <app-customer-dashboard-add-customer></app-customer-dashboard-add-customer>
     <app-customer-dashboard-card
       *ngFor="let customer of arrayOfCustomers"
       [customerData]="customer"
